@@ -1,4 +1,4 @@
-UDACITY DATA WAREHOUSE
+DATA WAREHOUSE
 
 SUMMARY
 This project combines data which resides in S3, in a directory of JSON logs on user activity, as well as a directory with JSON metadata on the songs in music streaming startup, Sparkify's app.
