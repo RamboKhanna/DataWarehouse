@@ -1,7 +1,7 @@
 DATA WAREHOUSE
 
 SUMMARY
-This project combines data which resides in S3, in a directory of JSON logs on user activity, as well as a directory with JSON metadata on the songs in music streaming startup, Sparkify's app.
+This project combines data which resides in S3, in a directory of JSON logs on user activity, as well as a directory with JSON metadata on the songs in music streaming startup app.
 An ETL pipeline is built that extracts the data from S3, stages them in Redshift, and transforms data into a set of dimensional tables for the analytics team to continue finding insights.
 
 FILES
