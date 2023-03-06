@@ -16,10 +16,10 @@ FILES
 6. create_cluster.ipynb: Create redshift cluster
 
 HOW TO RUN PYTHON CODES
-Set environment variables AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY
-Create IAM role, Redshift cluster, and configure TCP connectivity by running create_cluster.ipynb
-Drop and recreate tables by running create_tables.py (second cell in run.py).
-Run ETL pipeline etl.py (third cell in etl.py).
-Uncomment the last 3 cells in create_tables.py and run them one by one to delete the redshift cluster and de-attach IAM policy.
+1. Set environment variables AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY
+2. Create IAM role, Redshift cluster, and configure TCP connectivity by running create_cluster.ipynb
+3. Drop and recreate tables by running create_tables.py (second cell in run.py).
+4. Run ETL pipeline etl.py (third cell in etl.py).
+5. Uncomment the last 3 cells in create_tables.py and run them one by one to delete the redshift cluster and de-attach IAM policy.
 
     
